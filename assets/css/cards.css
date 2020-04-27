@@ -2,7 +2,7 @@
   /* display */
   display: flex;
 
-  border: 2px solid #CAD0D2;
+  border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
   
@@ -12,9 +12,9 @@
   /* display, flex-direction, flex-grow, flex-basis */
   display: flex;
   flex-direction: column;
-  flex-grow:10px;
-  flex-basis: 550px;
-  border: 2px solid #CAD0D2;
+  flex-grow:auto;
+  flex-basis: 1001px;
+  border: 1px solid #CAD0D2;
   border-radius: 4px;
   border: none;
   border-radius: 0;
@@ -29,9 +29,9 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  flex-grow: 10px;
+  flex-grow: 1001;
   padding: 15px 0;
-  height: 200px;
+  
 }
 
 html {
@@ -43,14 +43,14 @@ html {
 }
 
 .cardDescriptionIcon {
-  font-size: 52px;
-  margin-bottom: 20px;
+  font-size: 32px;
+  margin-bottom: 10px;
   color: #BCD2DA;
 }
 
 .cardDescriptionText {
   color: #57727C;
-  font-size: 25px;
+  font-size: 12px;
   text-align: center;
   max-width: calc(100% - 30px);
 }
@@ -58,10 +58,9 @@ html {
 .cardPrice {
   text-align: center;
   color: #57727C;
-  font-size: 18px;
-  font-weight: 900;
-  height:30px;
-  padding: 15px 15px;
-  border-top: 2px solid #D7DBDD;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-top: 1px solid #D7DBDD;
   background-color: #EEF3F5;
 }
